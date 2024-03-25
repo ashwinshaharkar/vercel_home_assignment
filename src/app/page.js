@@ -40,12 +40,9 @@ export default function Home() {
               As a Support Manager, I would likely be responsible for leading and managing a team of customer support representatives. My primary goal would be to ensure that customers receive timely and effective assistance with their inquiries, issues, and feedback regarding Vercel's products and services, which primarily revolve around web development and deployment tools, including Next.js.
               <br /><br />Following are some key areas I might focus on learning:<br />
               <ul>
-                <li><u>Team Leadership and Management:</u>Developing my skills in leading and managing a team, including hiring and training new team members, setting performance goals, providing coaching and feedback, and fostering a positive and collaborative work environment.</li>
+                <li><u>Executive Stockholder Management:</u>One of the key skills necessary for customer support’s success is mastering executive stakeholder management. In today's fast-paced business world, executives play a crucial role in the decision-making process, and their support and buy-in are essential for the success of any IT project or initiative.</li>
                 <li><u>Product Knowledge:</u>Deepening my understanding of Vercel's products and services, particularly Next.js and related technologies, so I can effectively support customers and guide your team in resolving technical issues and providing valuable insights and solutions.</li>
-                <li><u>Customer Relationship Management:</u>Strengthening my ability to build and maintain strong relationships with customers, understanding their needs and challenges, and ensuring that their feedback is effectively communicated to the appropriate teams within Vercel for product improvement and innovation.</li>
                 <li><u>Process Improvement:</u>Identifying opportunities to streamline and improve customer support processes and workflows, implementing tools and systems to enhance efficiency and effectiveness, and continuously monitoring and optimizing key performance metrics, such as response times and customer satisfaction scores.</li>
-                <li><u>Technical Skills:</u>Developing my technical skills, particularly in web development and deployment technologies, to better assist customers with technical inquiries and troubleshoot complex.</li>
-                <li><u>Communication Skills:</u>Enhancing my communication skills, both written and verbal, to effectively interact with customers, team members, and other stakeholders, including providing clear and concise instructions, documentation, and updates.</li>
               </ul>
               By focusing on these areas, I can effectively grow and excel in a Customer Support Manager role at Vercel, contributing to the success of the company and the satisfaction of its customers.
             </Accordion.Body>
@@ -77,9 +74,12 @@ export default function Home() {
             <Accordion.Header>#4.	When would you choose to use Edge Functions, Serverless Functions, or Edge Middleware with Vercel?</Accordion.Header>
             <Accordion.Body>
               <ul>
-                <li>Use <strong>Edge Functions</strong> for lightweight, globally-applied optimizations or customizations executed at the network edge.</li>
-                <li>Use <strong>Serverless Functions</strong> for dynamic, on-demand execution of application logic in response to specific HTTP requests or events.</li>
-                <li>Use <strong>Edge Middleware</strong> for applying common functionality or modifications to incoming requests or outgoing responses at the edge, affecting multiple parts of your application.</li>
+                <li><u>Edge Functions:</u>Edge functions, also known as cloud functions, are lightweight code snippets that run at the edge of a content delivery network (CDN). Unlike traditional server-side functions that execute on a central server, edge functions are executed at the edge nodes closest to the user, reducing latency and improving response times. 
+                  <ul><li>These functions intercept and modify requests and responses as they flow through the CDN, enabling developers to add custom logic and enhance the performance of their applications.</li></ul></li>
+                <li><u>Serverless Functions:</u>While edge functions execute at the edge of a CDN, serverless functions run in a cloud environment, eliminating the need for server management and infrastructure provisioning. Serverless functions, also known as Function-as-a-Service (FaaS), allow developers to focus solely on writing code without worrying about the underlying infrastructure.
+                <ul><li>When a trigger event occurs, such as an HTTP request or a database update, the serverless function is executed in response, providing a dynamic and scalable solution for handling application logic.</li></ul></li>
+                <li><u>Edge Middleware:</u>Edge middleware, also known as edge computing middleware, is a software layer that sits between the edge servers and the application servers. It acts as a bridge, intercepting and modifying requests and responses as they pass through, enabling developers to implement custom logic and enhance the performance of their applications. 
+                <ul><li>Edge middleware can perform tasks such as caching, request routing, load balancing, and protocol optimization, all at the edge of the network.</li></ul></li>
               </ul>
             </Accordion.Body>
           </Accordion.Item>
